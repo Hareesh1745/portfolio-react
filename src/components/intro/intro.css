@@ -7,7 +7,7 @@
 }
 
 
-.into{
+.intro{
     height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 75rem;
@@ -42,7 +42,7 @@
     font-weight: 100;
 }
 .introName{
-    color: yellow;
+    color:#7cf03d;
 }
 
 .introPara{

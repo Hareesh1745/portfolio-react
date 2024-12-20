@@ -1,0 +1,51 @@
+#Works {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.workTitle {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.workBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.workBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2 rem;
+    border-radius: 0.5rem ;
+    background: rgb(50,50,50);
+
+}
+.workBarImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+
+}
+.skillBarText>h2{
+   text-align: center;
+}
+ @media  screen and (max-width:720px){
+    .workBarText>p{
+        font-size: 2vw;
+    }
+ }

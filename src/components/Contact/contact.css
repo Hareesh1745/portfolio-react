@@ -1,0 +1,123 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  .contact-section {
+    padding: 20px;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .contact-item .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .contact-item .details {
+    margin-left: 10px;
+  }
+  
+  .contact-item h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white
+  }
+  
+  .contact-item p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: white;
+  }
+  
+  .form-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    color: #333;
+  }
+  
+  .form-section h2 {
+    font-size: 24px;
+    color: #66FF00;
+  }
+  
+  .form-section p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #66FF00;
+    outline: none;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color:#66FF00;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #e65c00c9;
+  }
+  @media screen and (max-width:585px){
+   .contact-section{
+    display: none;
+   }
+   .form-section{
+    width: 70vw;
+   }
+    
+  }

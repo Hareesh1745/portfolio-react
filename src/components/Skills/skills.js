@@ -14,21 +14,21 @@
                 <img src={UIDesign} alt='UIDesgin'className='skillBarImg'/>
                 <div className='skillBarText'>
                     <h2>UI/UX Design</h2>
-                    <p>This is demo text</p>
+                    <p></p>
                 </div>
              </div>
             <div className='skillBar'>
                 <img src={WebDesign} alt='WebDesign'className='skillBarImg'/>
                 <div className='skillBarText'>
                     <h2>Web design</h2>
-                    <p>This is demo text</p>
+                    <p></p>
                 </div>
              </div>
              <div className='skillBar'>
                 <img src={AppDesign} alt='AppDesign'className='skillBarImg'/>
                 <div className='skillBarText'>
                     <h2>App design</h2>
-                    <p>This is demo text</p>
+                    <p></p>
                 </div>
              </div>
             </div> 
